@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: black;
+}
+
+.button1 {
+    background-color: purple;
+    color: white;
+}
