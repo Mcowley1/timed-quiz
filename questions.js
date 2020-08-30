@@ -20,7 +20,7 @@ var questions = [
     },
     {
       title:
-        "Who does your love most",
+        "Who does your mom love most",
       choices: ["josh", "juan", "matt", "steve"],
       answer: "matt"
     }
