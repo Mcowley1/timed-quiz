@@ -26,6 +26,7 @@
 
         #currentTime {
             float: right;
+            color: gold;
         }
 
         body {
@@ -49,6 +50,11 @@
             text-decoration: none;
         }
 
+        #goBack:hover {
+            background-color: black;
+            color: gold;
+        }
+
 
 
         #clear {
@@ -62,8 +68,13 @@
             text-align: center;
         }
 
+        #clear:hover {
+            background-color: black;
+            color: gold;
+        }
+
         button {
-            border-radius: 8px;
+            border-radius: 10px;
         }
 
         textarea {
@@ -77,6 +88,11 @@
             padding: 15px 32px;
             font-size: 20px;
             color: white;
+        }
+
+        #Submit:hover {
+            background-color: black;
+            color: gold;
         }
 
         label {
@@ -104,6 +120,13 @@
             width: 80%;
             font-size: 18px;
             color: white;
+            border-radius: 10px;
+            border: solid;
+        }
+
+        li:hover {
+            background-color: black;
+            color: gold;
         }
 
         #createDiv {

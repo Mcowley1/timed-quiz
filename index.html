@@ -1,42 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <!-- This is the first step in making the document responsive but scaling the items to screen -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Jamie Morris Homework-4 Code Quiz -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- This is the style links -->
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
-
-    <!-- This is the title-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
     <title>Timed Quiz</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Link to highscores -->
     <a href="HighScores.html">View Highscores</a>
-    <!-- This is a wrapper -->
     <div id="wrapper">
-        <!-- Div for timer -->
-        <div id="currentTime"></div>
-        <!-- Div for quiz content -->
-        <div id="questionsDiv">
-            <h1>Test Your Knowledge About Your Mom</h1>
-            <p>Hope you know your Mama well. Incorrect
-                answers
-                will penalize your score/time by ten seconds! and.. 50 jump squats</p>
-            <ul id="choicesUl"></ul>
-            <button id="startTime">Begin Son!</button>
-        </div>
-
+      <div id="currentTime"></div>
+      <div id="questionsDiv">
+        <h1>Test Your Knowledge About Your Mom</h1>
+        <p>
+          Hope you know your Mama well. Incorrect answers will penalize your
+          score/time by ten seconds! and.. 50 jump squats
+        </p>
+        <ul id="choicesUl"></ul>
+        <button id="startTime">Begin Son!</button>
+      </div>
     </div>
 
-
     <script src="questions.js"></script>
-
-
-</body>
-
+  </body>
 </html>
